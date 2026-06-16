@@ -33,24 +33,53 @@ function initStickyNavbar() {
 function initMobileMenu() {
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
+    const overlay = document.querySelector('.nav-overlay');
     const items = document.querySelectorAll('.nav-item');
 
+    const openMenu = () => {
+        menuToggle.setAttribute('aria-expanded', 'true');
+        menuToggle.classList.add('active');
+        navLinks.classList.add('active');
+        if (overlay) overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    };
+
+    const closeMenu = () => {
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+        if (overlay) overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    };
+
     const toggleMenu = () => {
-        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
-        menuToggle.setAttribute('aria-expanded', !isExpanded);
-        menuToggle.classList.toggle('active');
-        navLinks.classList.toggle('active');
+        if (navLinks.classList.contains('active')) {
+            closeMenu();
+        } else {
+            openMenu();
+        }
     };
 
     menuToggle.addEventListener('click', toggleMenu);
 
-    // Automatically dismiss menu on option selection
+    if (overlay) {
+        overlay.addEventListener('click', closeMenu);
+    }
+
+    // Dismiss menu on nav item click
     items.forEach(item => {
         item.addEventListener('click', () => {
             if (navLinks.classList.contains('active')) {
-                toggleMenu();
+                closeMenu();
             }
         });
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+            closeMenu();
+        }
     });
 }
 
