@@ -1,0 +1,34 @@
+{
+    "name": "Pineal Studio",
+    "short_name": "Pineal",
+    "description": "Premium web design and development agency. Bespoke, SEO-optimized, mobile-first websites for businesses worldwide.",
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#F8F6F2",
+    "theme_color": "#1F1F1F",
+    "lang": "en-IN",
+    "icons": [
+        {
+            "src": "favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "apple touch icon"
+        }
+    ]
+}

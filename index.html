@@ -1,48 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pineal Studio | Premium Web Design & Development</title>
-    <meta name="description" content="Pineal Studio creates elegant, high-performance websites for businesses, restaurants, and modern brands with a focus on craftsmanship.">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PRIMARY META
+    ═══════════════════════════════════════════════════════════ -->
+    <title>Pineal Studio | Premium Web Design &amp; Development Agency India</title>
+    <meta name="description" content="Pineal Studio is a premium web design and development agency based in India. We build bespoke, SEO-optimized, mobile-first websites for businesses worldwide. Responsive websites, custom web design, and digital experiences crafted with intention.">
+    <meta name="keywords" content="Pineal Studio, Pineal Studio web design, Pineal web design agency, Pineal Studio India, premium web design India, custom website development, responsive website design, SEO optimized websites, business websites India">
+    <meta name="author" content="Pineal Studio">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#1F1F1F">
+    <meta name="color-scheme" content="light">
+    <link rel="canonical" href="https://pineal.in/">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         OPEN GRAPH
+    ═══════════════════════════════════════════════════════════ -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Pineal Studio">
+    <meta property="og:title" content="Pineal Studio | Premium Web Design &amp; Development Agency India">
+    <meta property="og:description" content="Pineal Studio builds premium, bespoke websites for businesses worldwide — modern design, fast performance, SEO-optimized, and mobile-first development.">
+    <meta property="og:url" content="https://pineal.in/">
+    <meta property="og:image" content="https://pineal.in/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Pineal Studio — Premium Web Design &amp; Development Agency">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         TWITTER CARD
+    ═══════════════════════════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pinealstudio">
+    <meta name="twitter:creator" content="@pinealstudio">
+    <meta name="twitter:title" content="Pineal Studio | Premium Web Design &amp; Development Agency India">
+    <meta name="twitter:description" content="Pineal Studio builds premium, bespoke websites for businesses worldwide — modern design, fast performance, SEO-optimized, and mobile-first.">
+    <meta name="twitter:image" content="https://pineal.in/og-image.png">
+    <meta name="twitter:image:alt" content="Pineal Studio — Premium Web Design &amp; Development Agency">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         SEARCH ENGINE VERIFICATION (add your codes below)
+    ═══════════════════════════════════════════════════════════ -->
+    <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_SEARCH_CONSOLE_CODE"> -->
+    <!-- <meta name="msvalidate.01" content="YOUR_BING_WEBMASTER_CODE"> -->
+
+    <!-- ═══════════════════════════════════════════════════════════
+         FAVICON & MANIFEST
+    ═══════════════════════════════════════════════════════════ -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PERFORMANCE — PRECONNECT & PRELOAD
+    ═══════════════════════════════════════════════════════════ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         FONTS
+    ═══════════════════════════════════════════════════════════ -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         STYLESHEET
+    ═══════════════════════════════════════════════════════════ -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         STRUCTURED DATA — JSON-LD
+    ═══════════════════════════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://pineal.in/#organization",
+                "name": "Pineal Studio",
+                "alternateName": ["Pineal", "Pineal Web Design", "Pineal Studio India"],
+                "url": "https://pineal.in",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://pineal.in/favicon.svg",
+                    "width": 512,
+                    "height": 512
+                },
+                "image": "https://pineal.in/og-image.png",
+                "description": "Pineal Studio is a premium web design and development agency based in India, crafting bespoke, SEO-optimized, mobile-first websites for businesses worldwide.",
+                "foundingDate": "2026",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "IN",
+                    "addressRegion": "India"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer service",
+                    "email": "contact@pineal.in",
+                    "telephone": "+91-9000654789",
+                    "availableLanguage": ["English", "Hindi"],
+                    "areaServed": "Worldwide"
+                },
+                "sameAs": [
+                    "https://twitter.com/pinealstudio",
+                    "https://instagram.com/pinealstudio",
+                    "https://linkedin.com/company/pinealstudio"
+                ],
+                "knowsAbout": [
+                    "Web Design",
+                    "Web Development",
+                    "SEO Optimization",
+                    "Responsive Web Design",
+                    "UI/UX Design",
+                    "Business Websites",
+                    "Restaurant Websites"
+                ]
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://pineal.in/#localbusiness",
+                "name": "Pineal Studio",
+                "description": "Premium web design and development agency based in India.",
+                "url": "https://pineal.in",
+                "telephone": "+91-9000654789",
+                "email": "contact@pineal.in",
+                "priceRange": "$$",
+                "currenciesAccepted": "INR, USD",
+                "paymentAccepted": "Bank Transfer, UPI",
+                "areaServed": {
+                    "@type": "Place",
+                    "name": "Worldwide"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "IN"
+                },
+                "hasMap": "https://maps.google.com/?q=India",
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                    "opens": "09:00",
+                    "closes": "18:00"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://pineal.in/#website",
+                "url": "https://pineal.in",
+                "name": "Pineal Studio",
+                "description": "Premium web design and development agency in India.",
+                "publisher": {
+                    "@id": "https://pineal.in/#organization"
+                },
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://pineal.in/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                },
+                "inLanguage": "en-IN"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://pineal.in/#webpage",
+                "url": "https://pineal.in",
+                "name": "Pineal Studio | Premium Web Design &amp; Development Agency India",
+                "isPartOf": {
+                    "@id": "https://pineal.in/#website"
+                },
+                "about": {
+                    "@id": "https://pineal.in/#organization"
+                },
+                "description": "Pineal Studio builds premium, bespoke websites for businesses worldwide — modern design, fast performance, SEO-optimized, and mobile-first development.",
+                "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [{
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://pineal.in"
+                    }]
+                },
+                "inLanguage": "en-IN",
+                "potentialAction": {
+                    "@type": "ReadAction",
+                    "target": ["https://pineal.in"]
+                }
+            },
+            {
+                "@type": "Service",
+                "serviceType": "Web Design and Development",
+                "provider": {
+                    "@id": "https://pineal.in/#organization"
+                },
+                "name": "Premium Web Design &amp; Development",
+                "description": "Bespoke website design, custom web development, restaurant websites, business websites, landing pages, and website maintenance.",
+                "areaServed": "Worldwide",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Web Design Services",
+                    "itemListElement": [
+                        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Website Design"}},
+                        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Website Development"}},
+                        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Restaurant Websites"}},
+                        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Business Websites"}},
+                        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Landing Pages"}},
+                        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Website Maintenance"}}
+                    ]
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         GOOGLE ANALYTICS (add your Measurement ID below)
+    ═══════════════════════════════════════════════════════════ -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+
+    <!-- ═══════════════════════════════════════════════════════════
+         GOOGLE TAG MANAGER (add your GTM ID below)
+    ═══════════════════════════════════════════════════════════ -->
+    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXX');</script> -->
+
 </head>
 <body>
 
-    <div class="nav-overlay" aria-hidden="true"></div>
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">PINEAL <span class="gold-dot">.</span></a>
-            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <div class="nav-links">
-                <a href="#home" class="nav-item">Home</a>
-                <a href="#about" class="nav-item">About</a>
-                <a href="#services" class="nav-item">Services</a>
-                <a href="#projects" class="nav-item">Projects</a>
-                <a href="#contact" class="nav-item btn-nav">Let's Talk</a>
-            </div>
-        </div>
-    </nav>
+    <!-- GTM noscript fallback -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
-    <main>
-        <section id="home" class="hero">
+    <div class="nav-overlay" aria-hidden="true"></div>
+
+    <header>
+        <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="https://pineal.in/" class="logo" aria-label="Pineal Studio — Home">PINEAL <span class="gold-dot" aria-hidden="true">.</span></a>
+                <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+                    <span class="bar" aria-hidden="true"></span>
+                    <span class="bar" aria-hidden="true"></span>
+                </button>
+                <div class="nav-links" id="nav-links" role="menubar">
+                    <a href="#home" class="nav-item" role="menuitem">Home</a>
+                    <a href="#about" class="nav-item" role="menuitem">About</a>
+                    <a href="#services" class="nav-item" role="menuitem">Services</a>
+                    <a href="#projects" class="nav-item" role="menuitem">Projects</a>
+                    <a href="#contact" class="nav-item btn-nav" role="menuitem">Let's Talk</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ═══ HERO ═══════════════════════════════════════════ -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
             <div class="container hero-container">
                 <div class="hero-content reveal">
-                    <span class="subtitle">PREMIUM DIGITAL CRAFTSMANSHIP</span>
-                    <h1 class="hero-title">Designing Websites That Feel <span class="italic-serif">Premium</span></h1>
-                    <p class="hero-subtitle">Elevating digital experiences through meticulous design and development.</p>
+                    <span class="subtitle" aria-hidden="true">PREMIUM DIGITAL CRAFTSMANSHIP</span>
+                    <h1 id="hero-heading" class="hero-title">Designing Websites That Feel <span class="italic-serif">Premium</span></h1>
+                    <p class="hero-subtitle">Pineal Studio builds bespoke, SEO-optimized, responsive websites for businesses worldwide — crafted with absolute intention and meticulous attention to detail.</p>
                     <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">View Work</a>
-                        <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                        <a href="#projects" class="btn btn-primary">View Our Work</a>
+                        <a href="#contact" class="btn btn-secondary">Start a Project</a>
                     </div>
                 </div>
-                <div class="hero-visual reveal delay-1">
+                <div class="hero-visual reveal delay-1" aria-hidden="true" role="presentation">
                     <div class="visual-bg"></div>
                     <div class="visual-accent"></div>
                     <div class="visual-text">EST. 2026</div>
@@ -50,223 +285,291 @@
             </div>
         </section>
 
-        <section id="about" class="about section-padding">
+        <!-- ═══ ABOUT ════════════════════════════════════════ -->
+        <section id="about" class="about section-padding" aria-labelledby="about-heading">
             <div class="container">
                 <div class="grid-2">
                     <div class="reveal">
-                        <span class="subtitle">OUR PHILOSOPHY</span>
-                        <h2 class="section-title">Craftsmanship, Clarity, and Timeless Design.</h2>
+                        <span class="subtitle" aria-hidden="true">OUR PHILOSOPHY</span>
+                        <h2 id="about-heading" class="section-title">Craftsmanship, Clarity, and Timeless Design.</h2>
                     </div>
                     <div class="about-text reveal delay-1">
-                        <p>We believe a website is the digital architecture of your brand. We eschew fleeting trends and loud graphics in favor of restrained elegance, intentional whitespace, and flawless technical execution.</p>
-                        <p>Every line of code we write and every layout we construct is meticulously tailored to elevate your brand's digital presence into a premium, memorable experience.</p>
+                        <p>We believe a website is the digital architecture of your brand. Pineal Studio eschews fleeting trends in favour of restrained elegance, intentional whitespace, and flawless technical execution.</p>
+                        <p>Every custom website we build is meticulously tailored — from semantic HTML structure to performance-first code — elevating your brand's digital presence into a premium, memorable experience that converts visitors into clients.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="services" class="services section-padding bg-alt">
+        <!-- ═══ SERVICES ══════════════════════════════════════ -->
+        <section id="services" class="services section-padding bg-alt" aria-labelledby="services-heading">
             <div class="container">
-                <div class="section-header reveal">
-                    <span class="subtitle">CAPABILITIES</span>
-                    <h2 class="section-title">Tailored Digital Solutions</h2>
-                </div>
-                <div class="services-grid">
-                    <div class="service-card reveal">
-                        <span class="service-num">01</span>
+                <header class="section-header reveal">
+                    <span class="subtitle" aria-hidden="true">CAPABILITIES</span>
+                    <h2 id="services-heading" class="section-title">Tailored Digital Solutions</h2>
+                </header>
+                <div class="services-grid" role="list">
+                    <article class="service-card reveal" role="listitem">
+                        <span class="service-num" aria-hidden="true">01</span>
                         <h3 class="service-name">Website Design</h3>
-                        <p class="service-desc">Bespoke, editorial layouts engineered to establish digital authority and convey luxury brand values.</p>
-                    </div>
-                    <div class="service-card reveal">
-                        <span class="service-num">02</span>
+                        <p class="service-desc">Bespoke, editorial layouts engineered to establish digital authority and convey premium brand values through custom web design.</p>
+                    </article>
+                    <article class="service-card reveal" role="listitem">
+                        <span class="service-num" aria-hidden="true">02</span>
                         <h3 class="service-name">Website Development</h3>
-                        <p class="service-desc">Clean, semantic, and lightning-fast code built specifically for your custom business requirements.</p>
-                    </div>
-                    <div class="service-card reveal">
-                        <span class="service-num">03</span>
+                        <p class="service-desc">Clean, semantic, and lightning-fast code built specifically for your custom website development requirements and business goals.</p>
+                    </article>
+                    <article class="service-card reveal" role="listitem">
+                        <span class="service-num" aria-hidden="true">03</span>
                         <h3 class="service-name">Restaurant Websites</h3>
-                        <p class="service-desc">Immersive online dining experiences featuring seamless menu architecture and reservation touchpoints.</p>
-                    </div>
-                    <div class="service-card reveal">
-                        <span class="service-num">04</span>
+                        <p class="service-desc">Immersive online dining experiences featuring seamless menu architecture, SEO-optimized content, and reservation touchpoints.</p>
+                    </article>
+                    <article class="service-card reveal" role="listitem">
+                        <span class="service-num" aria-hidden="true">04</span>
                         <h3 class="service-name">Business Websites</h3>
-                        <p class="service-desc">Sophisticated digital corporate profiles that naturally foster corporate trust, authority, and lead generation.</p>
-                    </div>
-                    <div class="service-card reveal">
-                        <span class="service-num">05</span>
+                        <p class="service-desc">Sophisticated digital corporate profiles that naturally foster trust, authority, and lead generation for modern businesses.</p>
+                    </article>
+                    <article class="service-card reveal" role="listitem">
+                        <span class="service-num" aria-hidden="true">05</span>
                         <h3 class="service-name">Landing Pages</h3>
-                        <p class="service-desc">Highly targeted, distraction-free conversion assets built with hyper-focused typographic hierarchies.</p>
-                    </div>
-                    <div class="service-card reveal">
-                        <span class="service-num">06</span>
+                        <p class="service-desc">Highly targeted, distraction-free conversion assets built with hyper-focused typographic hierarchies and responsive website design.</p>
+                    </article>
+                    <article class="service-card reveal" role="listitem">
+                        <span class="service-num" aria-hidden="true">06</span>
                         <h3 class="service-name">Website Maintenance</h3>
-                        <p class="service-desc">Dedicated white-glove support, security monitoring, and optimizations keeping your brand flawless.</p>
-                    </div>
+                        <p class="service-desc">Dedicated white-glove support, security monitoring, and performance optimizations keeping your website flawless and fast.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects section-padding">
+        <!-- ═══ PROJECTS ═══════════════════════════════════════ -->
+        <section id="projects" class="projects section-padding" aria-labelledby="projects-heading">
             <div class="container">
-                <div class="section-header reveal">
-                    <span class="subtitle">SELECTED WORK</span>
-                    <h2 class="section-title">Portfolio of Excellence</h2>
-                </div>
-                <div class="portfolio-grid">
-                    <a href="https://pineal.in" target="_blank" rel="noopener noreferrer" class="portfolio-card portfolio-card--featured reveal">
+                <header class="section-header reveal">
+                    <span class="subtitle" aria-hidden="true">SELECTED WORK</span>
+                    <h2 id="projects-heading" class="section-title">Portfolio of Excellence</h2>
+                </header>
+                <div class="portfolio-grid" role="list">
+
+                    <a href="https://pineal.in"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card portfolio-card--featured reveal"
+                       role="listitem"
+                       aria-label="View Pineal Studio portfolio website — our own site">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-badge">Our First Build · You're Here Now</span>
                             <span class="portfolio-category">Portfolio Website</span>
                             <h3 class="portfolio-name">Pineal Studio</h3>
-                            <p class="portfolio-desc">This very site — our own portfolio, crafted to showcase Pineal's design philosophy and the standard we set for every client.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">This very site — our own premium portfolio website, crafted to showcase Pineal Studio's web design philosophy and the standard we hold for every client project.</p>
+                            <span class="portfolio-link">Explore Pineal Studio <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://36965808-bfb5-4156-a2ba-8204036e28f8-00-2h2xt63i62ej6.pike.replit.dev/" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://36965808-bfb5-4156-a2ba-8204036e28f8-00-2h2xt63i62ej6.pike.replit.dev/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View The ART Kitchens restaurant website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">Restaurant Website</span>
                             <h3 class="portfolio-name">The ART Kitchens</h3>
-                            <p class="portfolio-desc">A bold, immersive dining experience website celebrating artful cuisine and contemporary hospitality.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">A bold, immersive restaurant website celebrating artful cuisine and contemporary hospitality through bespoke digital design.</p>
+                            <span class="portfolio-link">View Restaurant Website <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://example.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View Aethel Capital business website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">Business Website</span>
                             <h3 class="portfolio-name">Aethel Capital</h3>
-                            <p class="portfolio-desc">A minimalist, trust-anchored digital hub for a modern architectural venture firm.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">A minimalist, trust-anchored business website for a modern architectural venture firm built for authority and credibility.</p>
+                            <span class="portfolio-link">View Business Website <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://example.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View Mina Vance photography portfolio website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">Portfolio Website</span>
                             <h3 class="portfolio-name">Mina Vance</h3>
-                            <p class="portfolio-desc">A high-end, image-led archive for a luxury haute couture photographer's finest work.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">A high-end, image-led portfolio website for a luxury haute couture photographer — designed for impact and editorial precision.</p>
+                            <span class="portfolio-link">View Portfolio Website <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://example.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View Lumière Boutique luxury e-commerce website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">E-commerce Website</span>
                             <h3 class="portfolio-name">Lumière Boutique</h3>
-                            <p class="portfolio-desc">A refined luxury e-commerce storefront designed for an exclusive Parisian fashion label.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">A refined luxury e-commerce website for an exclusive Parisian fashion label — seamless shopping experience with premium aesthetics.</p>
+                            <span class="portfolio-link">View E-commerce Site <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://example.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View Meridian Law professional legal website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">Business Website</span>
                             <h3 class="portfolio-name">Meridian Law</h3>
-                            <p class="portfolio-desc">A sophisticated, authority-first digital profile for a premier international legal practice.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">A sophisticated, authority-first professional website for a premier international legal practice commanding trust at first impression.</p>
+                            <span class="portfolio-link">View Professional Website <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://example.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View Solstice Spa wellness website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">Wellness Website</span>
                             <h3 class="portfolio-name">Solstice Spa</h3>
-                            <p class="portfolio-desc">A serene, sensory-first website capturing the tranquil essence of a luxury wellness retreat.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">A serene, sensory-first website capturing the tranquil essence of a luxury wellness retreat — calming design meets digital precision.</p>
+                            <span class="portfolio-link">View Wellness Website <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://example.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View Verdant Living sustainable e-commerce website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">E-commerce Website</span>
                             <h3 class="portfolio-name">Verdant Living</h3>
-                            <p class="portfolio-desc">An elegant, nature-inspired e-commerce platform for a premium sustainable homeware brand.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">An elegant, nature-inspired e-commerce website for a premium sustainable homeware brand — beauty and ethics in perfect balance.</p>
+                            <span class="portfolio-link">View E-commerce Site <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
+
+                    <a href="https://example.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="portfolio-card reveal"
+                       role="listitem"
+                       aria-label="View Nocturne Creative agency portfolio website">
                         <div class="portfolio-card-inner">
                             <span class="portfolio-category">Portfolio Website</span>
                             <h3 class="portfolio-name">Nocturne Creative</h3>
-                            <p class="portfolio-desc">A dark, editorial portfolio for an avant-garde creative studio pushing boundaries of design.</p>
-                            <span class="portfolio-link">Visit Website <span class="portfolio-arrow">→</span></span>
+                            <p class="portfolio-desc">A dark, editorial agency portfolio website for an avant-garde creative studio — bold design pushing the boundaries of digital craft.</p>
+                            <span class="portfolio-link">View Agency Website <span class="portfolio-arrow" aria-hidden="true">→</span></span>
                         </div>
                     </a>
+
                 </div>
             </div>
         </section>
 
-        <section class="process section-padding bg-alt">
+        <!-- ═══ PROCESS ═══════════════════════════════════════ -->
+        <section id="process" class="process section-padding bg-alt" aria-labelledby="process-heading">
             <div class="container">
-                <div class="section-header reveal">
-                    <span class="subtitle">METHODOLOGY</span>
-                    <h2 class="section-title">Our Path to Excellence</h2>
-                </div>
-                <div class="process-timeline">
-                    <div class="process-step reveal">
+                <header class="section-header reveal">
+                    <span class="subtitle" aria-hidden="true">METHODOLOGY</span>
+                    <h2 id="process-heading" class="section-title">Our Path to Excellence</h2>
+                </header>
+                <div class="process-timeline" role="list">
+                    <article class="process-step reveal" role="listitem">
                         <div class="process-meta">
-                            <span class="process-num">01</span>
+                            <span class="process-num" aria-hidden="true">01</span>
                             <h3 class="process-name">Discovery</h3>
                         </div>
-                        <p class="process-desc">Deep immersion into your brand landscape, defining specific architecture, scope, business goals, and creative vision.</p>
-                    </div>
-                    <div class="process-step reveal">
+                        <p class="process-desc">Deep immersion into your brand landscape, defining specific architecture, scope, business goals, and creative vision for your website project.</p>
+                    </article>
+                    <article class="process-step reveal" role="listitem">
                         <div class="process-meta">
-                            <span class="process-num">02</span>
+                            <span class="process-num" aria-hidden="true">02</span>
                             <h3 class="process-name">Design</h3>
                         </div>
-                        <p class="process-desc">Translating strategy into wireframes and high-fidelity conceptual designs featuring flawless responsive layout structures.</p>
-                    </div>
-                    <div class="process-step reveal">
+                        <p class="process-desc">Translating strategy into wireframes and high-fidelity custom web design concepts featuring flawless responsive layout structures.</p>
+                    </article>
+                    <article class="process-step reveal" role="listitem">
                         <div class="process-meta">
-                            <span class="process-num">03</span>
+                            <span class="process-num" aria-hidden="true">03</span>
                             <h3 class="process-name">Development</h3>
                         </div>
-                        <p class="process-desc">Transforming accepted visual templates into clean, performant, pixel-perfect semantic code tailored for scalability.</p>
-                    </div>
-                    <div class="process-step reveal">
+                        <p class="process-desc">Transforming designs into clean, performant, pixel-perfect semantic HTML and CSS code — SEO-optimized and built for scalability.</p>
+                    </article>
+                    <article class="process-step reveal" role="listitem">
                         <div class="process-meta">
-                            <span class="process-num">04</span>
+                            <span class="process-num" aria-hidden="true">04</span>
                             <h3 class="process-name">Launch</h3>
                         </div>
-                        <p class="process-desc">Rigorous multi-point testing, loading configurations, optimization audits, and flawless server deployment steps.</p>
-                    </div>
+                        <p class="process-desc">Rigorous multi-point testing, Core Web Vitals optimization, accessibility audits, and flawless deployment of your new responsive website.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="cta section-padding">
+        <!-- ═══ CTA ════════════════════════════════════════════ -->
+        <section id="contact" class="cta section-padding" aria-labelledby="cta-heading">
             <div class="container cta-container reveal">
-                <h2 class="cta-title">Ready to Build Something <br><span class="italic-serif">Exceptional</span>?</h2>
-                <a href="mailto:contact@pineal.in" class="btn btn-primary btn-large">Let's Talk</a>
+                <h2 id="cta-heading" class="cta-title">Ready to Build Something <br><span class="italic-serif">Exceptional</span>?</h2>
+                <a href="mailto:contact@pineal.in"
+                   class="btn btn-primary btn-large"
+                   aria-label="Send an email to Pineal Studio to start your web design project">
+                    Start Your Project
+                </a>
             </div>
         </section>
+
     </main>
 
-    <footer class="footer">
+    <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+    <footer class="footer" role="contentinfo">
         <div class="container footer-grid">
             <div class="footer-brand">
-                <a href="#" class="logo">PINEAL <span class="gold-dot">.</span></a>
-                <p class="footer-tagline">Quietly confident digital design and development for selective modern brands worldwide.</p>
+                <a href="https://pineal.in/" class="logo" aria-label="Pineal Studio — Return to homepage">PINEAL <span class="gold-dot" aria-hidden="true">.</span></a>
+                <p class="footer-tagline">Pineal Studio — a premium web design and development agency crafting bespoke digital experiences for selective modern brands worldwide.</p>
             </div>
-            <div class="footer-links-group">
+            <nav class="footer-links-group" aria-label="Studio pages">
                 <h4>Studio</h4>
                 <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-            </div>
-            <div class="footer-links-group">
+                <a href="#about">About Pineal Studio</a>
+                <a href="#projects">Our Projects</a>
+            </nav>
+            <nav class="footer-links-group" aria-label="Service pages">
                 <h4>Services</h4>
-                <a href="#services">Design</a>
-                <a href="#services">Development</a>
-                <a href="#services">Maintenance</a>
-            </div>
+                <a href="#services">Custom Web Design</a>
+                <a href="#services">Website Development</a>
+                <a href="#services">Website Maintenance</a>
+            </nav>
             <div class="footer-links-group">
                 <h4>Connect</h4>
-                <span class="contact-info">contact@pineal.in</span>
-                <span class="contact-info">+91 9000654789</span>
-                <span class="contact-info">India / Remote</span>
+                <address>
+                    <a href="mailto:contact@pineal.in" class="contact-info" aria-label="Email Pineal Studio">contact@pineal.in</a>
+                    <a href="tel:+919000654789" class="contact-info" aria-label="Call Pineal Studio">+91 9000654789</a>
+                    <span class="contact-info">India &amp; Remote</span>
+                </address>
             </div>
         </div>
         <div class="container footer-bottom">
-            <p>&copy; 2026 Pineal. All rights reserved. Crafted with absolute intention.</p>
+            <p>&copy; 2026 Pineal Studio. All rights reserved. Crafted with absolute intention.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

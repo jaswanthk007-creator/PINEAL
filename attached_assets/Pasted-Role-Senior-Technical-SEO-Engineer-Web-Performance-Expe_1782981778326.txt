@@ -1,0 +1,289 @@
+Role: Senior Technical SEO Engineer + Web Performance Expert
+
+The website is complete, but now I want to fully SEO optimize it so it can rank for searches like:
+
+- Pineal
+- Pineal Studio
+- Pineal Studio Web Design
+- Pineal Studio India
+- Pineal Web Design Agency
+- Pineal Website Development
+
+The goal is to maximize discoverability on Google while maintaining excellent Core Web Vitals.
+
+Please implement the following:
+
+### 1. Meta Tags
+Create unique SEO metadata for every page.
+
+Include:
+- Optimized title
+- Meta description
+- Meta keywords (optional)
+- Canonical URL
+- Robots tag
+- Author
+- Theme color
+
+Example homepage title:
+"Pineal Studio | Premium Web Design & Development"
+
+Example description:
+"Pineal Studio builds premium websites for businesses worldwide. Modern design, fast performance, SEO optimized, and mobile-first development."
+
+---
+
+### 2. Open Graph Tags
+
+Add complete Open Graph metadata.
+
+Include:
+- og:title
+- og:description
+- og:image
+- og:url
+- og:type
+- og:site_name
+
+Also add Twitter Card metadata.
+
+---
+
+### 3. Structured Data
+
+Implement JSON-LD structured data.
+
+Include:
+
+Organization
+
+LocalBusiness (if applicable)
+
+Website
+
+WebPage
+
+Person (if appropriate)
+
+Include:
+- Name
+- Logo
+- Website
+- Social links (placeholder)
+- Contact email (placeholder)
+
+---
+
+### 4. Heading Structure
+
+Ensure there is only one H1 on each page.
+
+Use proper H2, H3 hierarchy.
+
+Avoid skipping heading levels.
+
+---
+
+### 5. Image SEO
+
+Every image should have:
+- descriptive alt text
+- loading="lazy"
+- width and height
+- responsive sizing
+
+Compress large images.
+
+Use modern formats where possible.
+
+---
+
+### 6. Sitemap
+
+Automatically generate:
+
+/sitemap.xml
+
+Include every public page.
+
+---
+
+### 7. robots.txt
+
+Generate robots.txt
+
+Allow crawling.
+
+Reference sitemap.
+
+---
+
+### 8. Favicon
+
+Generate all favicon sizes.
+
+Add:
+
+apple-touch-icon
+
+favicon-32
+
+favicon-16
+
+manifest
+
+theme color
+
+---
+
+### 9. Performance
+
+Optimize for Lighthouse.
+
+Goals:
+
+Performance >95
+
+SEO >100
+
+Accessibility >95
+
+Best Practices >95
+
+Use:
+- lazy loading
+- code splitting
+- image optimization
+- font optimization
+- preload critical assets
+- preconnect where appropriate
+
+---
+
+### 10. Semantic HTML
+
+Use proper:
+<header>
+<nav>
+<main>
+<section>
+<article>
+<footer>
+
+Replace unnecessary divs with semantic elements.
+
+---
+
+### 11. Internal SEO
+
+Add descriptive anchor text.
+
+Avoid "Click Here".
+
+Ensure every page links back to Home.
+
+---
+
+### 12. Schema Validation
+
+Ensure all structured data validates without warnings.
+
+---
+
+### 13. URL Structure
+
+Use clean URLs.
+
+Example:
+/services
+/projects
+/contact
+/about
+
+No unnecessary parameters.
+
+---
+
+### 14. Contact Information
+
+Add structured contact information.
+
+Email
+
+Phone (placeholder)
+
+Business name
+
+---
+
+### 15. Security
+
+Add security headers where applicable.
+
+---
+
+### 16. Accessibility
+
+Improve ARIA labels.
+
+Keyboard navigation.
+
+Image labels.
+
+Button labels.
+
+---
+
+### 17. Search Engine Branding
+
+Throughout the homepage naturally mention:
+
+Pineal Studio
+
+Pineal Studio Web Design
+
+Premium Web Design Agency
+
+Website Development
+
+Responsive Websites
+
+SEO Optimized Websites
+
+Custom Websites
+
+Business Websites
+
+without keyword stuffing.
+
+---
+
+### 18. Google Verification Ready
+
+Create placeholders for:
+
+Google Search Console verification
+
+Google Analytics
+
+Google Tag Manager
+
+Microsoft Bing Webmaster
+
+---
+
+### 19. Rich Snippets
+
+Optimize for Google rich results wherever applicable.
+
+---
+
+### 20. Final Audit
+
+After implementation, perform a complete SEO audit and fix every issue found.
+
+Do not redesign the website.
+
+Do not change the visual appearance.
+
+Only improve SEO, semantic HTML, accessibility, metadata, structured data, and performance.

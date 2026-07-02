@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Block search engines from accessing raw asset files
+Disallow: /og-image.png
+
+# Sitemaps
+Sitemap: https://pineal.in/sitemap.xml
+
+# Crawl-delay for courtesy (optional, remove if not needed)
+Crawl-delay: 10
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
