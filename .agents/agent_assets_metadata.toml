@@ -1,8 +1,0 @@
-uploads = []
-generated = []
-
-[[outputs]]
-id = "1IQI8tg60MOBE5v3s4_5q"
-uri = "file://pineal-studio-files.zip"
-type = "unspecified"
-title = "Pineal Studio — All Site Files"
