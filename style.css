@@ -556,6 +556,29 @@ img, video {
     transform: translateX(4px);
 }
 
+.portfolio-card--featured {
+    border-color: rgba(198, 164, 108, 0.2);
+    background-color: rgba(198, 164, 108, 0.04);
+}
+
+.portfolio-card--featured:hover {
+    border-color: rgba(198, 164, 108, 0.5);
+    box-shadow: 0 20px 48px rgba(198, 164, 108, 0.1);
+}
+
+.portfolio-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    background-color: var(--clr-gold);
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+}
+
 /* ---------------------------------------------------------------------
    8. PROCESS SECTION
 --------------------------------------------------------------------- */
