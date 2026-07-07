@@ -312,10 +312,12 @@ img, video {
     -webkit-backdrop-filter: blur(2px);
     opacity: 0;
     transition: opacity 0.3s ease;
+    pointer-events: none;
 }
 
 .nav-overlay.active {
     opacity: 1;
+    pointer-events: auto;
 }
 
 /* ---------------------------------------------------------------------
